@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  height: 90px;
+}
+
+.header-content {
+  flex-grow: 1;
+  background: linear-gradient(to right, 
+    #8ba6d9 60%,#8ba6d9 60%, 
+    #6d799e 60%, #6d799e 80%, 
+    #2f4861 80%, #2f4861 100%
+  );
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}

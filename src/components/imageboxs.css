@@ -1,0 +1,79 @@
+.image-boxes {
+  height: 50px;
+  flex: 3;
+  padding: 0px;
+}
+
+.boxes-container {
+  margin-left: 15px;
+  width:800px;
+  height:230px;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+.boxes-con {
+  margin-left: 15px;
+  width:800px;
+  height:230px;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.box {
+  flex: 1;
+  aspect-ratio: 1;
+  background-color:#b44e4e;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cross {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.cross::before,
+.cross::after {
+  content: '';
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+}
+
+.cross::before {
+  transform: rotate(45deg);
+}
+
+.cross::after {
+  transform: rotate(-45deg);
+}
+
+.image-boxes h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.image-boxes p {
+  font-size: 14px;
+  color: #333;
+}
+
+.box {
+  flex: 1;
+  aspect-ratio: 1;
+  background-color: #b44e4e;
+  border: 5px solid rgb(115, 103, 103);  /* Changed from 1px solid #ccc to 2px solid white */
+  border-radius: 4px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

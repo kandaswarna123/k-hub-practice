@@ -1,0 +1,28 @@
+.footer {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.above {
+  background-color: #455e8a;  /* Darker shade as seen in the image */
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.github-logo {
+  fill: white;
+}
+
+.below {
+  background-color: #2a313d;  /* Slightly lighter shade as seen in the image */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.7rem;
+}
+
+.below p {
+  margin: 0;
+}
